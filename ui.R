@@ -62,7 +62,7 @@ shinyUI(
          ),
          width=3),
        
-       h3(textOutput("yourSchool"),'Rate your school - 1 is low and 10 is high'),
+       h3(textOutput("yourSchool"),'Rate your school - 0 is low and 10 is high'),
        # tags$head(tags$style("#yourSchool{color: blue;
        #                           font-size: 40px;
        #                      }"
